@@ -34,7 +34,7 @@ public class MainReader {
      */
     public static void readFile() {
         //Открываем потоки на чтение из файла
-        try (FileReader reader = new FileReader("file.txt");
+        try (FileReader reader = new FileReader("ExceptionTask\\src\\file");
              BufferedReader byfReader = new BufferedReader(reader)) {
             String strDate = byfReader.readLine();
             while(strDate != null) {
